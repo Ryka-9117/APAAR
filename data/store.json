@@ -4213,15 +4213,23 @@
       "conflictType": "CONCURRENT_FULL_TIME",
       "confidenceScore": 98,
       "ruleTriggered": "AICTE Norms Sec 4.3: Prohibition of Simultaneous Full-Time Regular Degrees in Separate Institutions",
-      "reviewStatus": "OPEN",
+      "reviewStatus": "RESOLVED_DUPLICATE",
       "investigationHistory": [
         {
           "timestamp": "2024-08-01T09:15:00Z",
           "actor": "AICTE_AUTOMATED_DETECTOR",
           "action": "FLAGGED_INSPECTION",
           "notes": "Identical APAAR detected in concurrent Full-Time B.Tech programmes in Delhi and Pune."
+        },
+        {
+          "timestamp": "2026-10-25T11:39:49.372Z",
+          "actor": "AICTE Regulatory Directorate",
+          "action": "RESOLVED_DUPLICATE",
+          "notes": "Reviewed under AICTE Norms"
         }
-      ]
+      ],
+      "resolutionReason": "Reviewed under AICTE Norms",
+      "assignedReviewer": "AICTE Regulatory Directorate"
     },
     {
       "id": "DUP-CASE-1002",
@@ -4244,8 +4252,8 @@
       "confidenceScore": 10,
       "ruleTriggered": "Legitimate Academic Progression",
       "reviewStatus": "RESOLVED_LEGITIMATE",
-      "assignedReviewer": "Dr. K. S. Raman (AICTE Evaluation Officer)",
-      "resolutionReason": "Verified degree completion certificate from KNIE. Normal progression to higher study at VEA.",
+      "assignedReviewer": "AICTE Regulatory Directorate",
+      "resolutionReason": "Reviewed under AICTE Norms",
       "investigationHistory": [
         {
           "timestamp": "2024-08-02T11:00:00Z",
@@ -4258,6 +4266,18 @@
           "actor": "Dr. K. S. Raman",
           "action": "RESOLVED_LEGITIMATE",
           "notes": "Prior course marked COMPLETED with provisional degree certificate verified."
+        },
+        {
+          "timestamp": "2026-10-25T11:39:32.424Z",
+          "actor": "AICTE Regulatory Directorate",
+          "action": "RESOLVED_DUPLICATE",
+          "notes": "Reviewed under AICTE Norms"
+        },
+        {
+          "timestamp": "2026-10-25T11:39:40.395Z",
+          "actor": "AICTE Regulatory Directorate",
+          "action": "RESOLVED_LEGITIMATE",
+          "notes": "Reviewed under AICTE Norms"
         }
       ]
     }
@@ -4319,6 +4339,62 @@
         "keyId": "aicte-vidya-root-key-2024",
         "signatureHex": "c11e6bbab00130e042971c51c7fc9c5d314ef3886fb34a35478695f990833f43",
         "timestamp": "2026-10-25T08:34:28.709Z"
+      }
+    },
+    {
+      "id": "CRED-VS-CRED-2024-4130",
+      "studentId": "STU-1149",
+      "credentialNumber": "VS-CRED-2024-4130",
+      "issuingInstitutionId": "INST-MPNTI",
+      "courseId": "COURSE-DITS-MECH",
+      "academicYear": "2024-25",
+      "issueDate": "2026-10-25T11:33:03.016Z",
+      "expiryDate": "2030-10-25T11:33:03.016Z",
+      "status": "ACTIVE",
+      "payload": {
+        "studentId": "STU-1149",
+        "studentName": "Ananya Bose",
+        "maskedApaar": "••••-••••-4130",
+        "institutionalStudentId": "MPNTI-2024-MECH-001",
+        "institutionName": "Madhya Pradesh National Tech Institute",
+        "courseName": "B.Tech Mechanical Engineering",
+        "academicYear": "2024-25",
+        "cgpa": 8.85,
+        "completionStatus": "ENROLLED_AUTHENTIC"
+      },
+      "signature": {
+        "algorithm": "HMAC-SHA256",
+        "keyId": "aicte-vidya-root-key-2024",
+        "signatureHex": "121f85c431ff2265aa0812936e4bfc4b6edf128c5547ebba215103720f13df6f",
+        "timestamp": "2026-10-25T11:33:03.015Z"
+      }
+    },
+    {
+      "id": "CRED-VS-CRED-2024-4130",
+      "studentId": "STU-1149",
+      "credentialNumber": "VS-CRED-2024-4130",
+      "issuingInstitutionId": "INST-MPNTI",
+      "courseId": "COURSE-DITS-MECH",
+      "academicYear": "2024-25",
+      "issueDate": "2026-10-25T11:34:50.558Z",
+      "expiryDate": "2030-10-25T11:34:50.558Z",
+      "status": "ACTIVE",
+      "payload": {
+        "studentId": "STU-1149",
+        "studentName": "Ananya Bose",
+        "maskedApaar": "••••-••••-4130",
+        "institutionalStudentId": "MPNTI-2024-MECH-001",
+        "institutionName": "Madhya Pradesh National Tech Institute",
+        "courseName": "B.Tech Mechanical Engineering",
+        "academicYear": "2024-25",
+        "cgpa": 8.85,
+        "completionStatus": "ENROLLED_AUTHENTIC"
+      },
+      "signature": {
+        "algorithm": "HMAC-SHA256",
+        "keyId": "aicte-vidya-root-key-2024",
+        "signatureHex": "863139f85129d80ff55d363cb32aaf62af5cdc229283b011ffca758c260d632c",
+        "timestamp": "2026-10-25T11:34:50.557Z"
       }
     }
   ],
@@ -4596,6 +4672,100 @@
       },
       "previousHash": "e2781788626574a5a3d8f0540ec6b2d65f9eec3d68f3826e843f350a4e0fda6d",
       "currentHash": "1cf5ea27d589635452577b844e951a97f749540ba13a64d783a732b23a0a503e"
+    },
+    {
+      "id": "EVT-009",
+      "eventNumber": 9,
+      "timestamp": "2026-10-25T11:33:03.027Z",
+      "actorId": "INSTITUTION-PORTAL",
+      "actorRole": "INSTITUTION_ADMIN",
+      "actorName": "Institutional Officer",
+      "institutionId": "INST-MPNTI",
+      "actionType": "DIGITAL_CREDENTIAL_ISSUED",
+      "targetEntity": "STUDENT_CREDENTIAL",
+      "targetReference": "CRED-VS-CRED-2024-4130",
+      "result": "SUCCESS",
+      "metadata": {
+        "credentialNumber": "VS-CRED-2024-4130",
+        "algorithm": "HMAC-SHA256",
+        "keyId": "aicte-vidya-root-key-2024"
+      },
+      "previousHash": "1cf5ea27d589635452577b844e951a97f749540ba13a64d783a732b23a0a503e",
+      "currentHash": "751ebb8dcfbd1e9720f9c857c6a7d857053f0648c1ebffed573683621c4a7c44"
+    },
+    {
+      "id": "EVT-010",
+      "eventNumber": 10,
+      "timestamp": "2026-10-25T11:34:50.558Z",
+      "actorId": "INSTITUTION-PORTAL",
+      "actorRole": "INSTITUTION_ADMIN",
+      "actorName": "Institutional Officer",
+      "institutionId": "INST-MPNTI",
+      "actionType": "DIGITAL_CREDENTIAL_ISSUED",
+      "targetEntity": "STUDENT_CREDENTIAL",
+      "targetReference": "CRED-VS-CRED-2024-4130",
+      "result": "SUCCESS",
+      "metadata": {
+        "credentialNumber": "VS-CRED-2024-4130",
+        "algorithm": "HMAC-SHA256",
+        "keyId": "aicte-vidya-root-key-2024"
+      },
+      "previousHash": "751ebb8dcfbd1e9720f9c857c6a7d857053f0648c1ebffed573683621c4a7c44",
+      "currentHash": "0e24007ba2b6dff8fd8ef660ff8e5f8ec9f75ef0665cce93396a098e0395779b"
+    },
+    {
+      "id": "EVT-011",
+      "eventNumber": 11,
+      "timestamp": "2026-10-25T11:39:32.424Z",
+      "actorId": "AICTE-REV-OFFICER",
+      "actorRole": "AICTE_ADMIN",
+      "actorName": "AICTE Regulatory Directorate",
+      "actionType": "DUPLICATE_CASE_RESOLVED",
+      "targetEntity": "DUPLICATE_CASE",
+      "targetReference": "DUP-CASE-1002",
+      "result": "SUCCESS",
+      "metadata": {
+        "reviewStatus": "RESOLVED_DUPLICATE",
+        "resolutionReason": "Reviewed under AICTE Norms"
+      },
+      "previousHash": "0e24007ba2b6dff8fd8ef660ff8e5f8ec9f75ef0665cce93396a098e0395779b",
+      "currentHash": "30c45e453f8ce26530c4c49653bbf6c13003d03146c9e7a608e91bfd87df07e3"
+    },
+    {
+      "id": "EVT-012",
+      "eventNumber": 12,
+      "timestamp": "2026-10-25T11:39:40.396Z",
+      "actorId": "AICTE-REV-OFFICER",
+      "actorRole": "AICTE_ADMIN",
+      "actorName": "AICTE Regulatory Directorate",
+      "actionType": "DUPLICATE_CASE_RESOLVED",
+      "targetEntity": "DUPLICATE_CASE",
+      "targetReference": "DUP-CASE-1002",
+      "result": "SUCCESS",
+      "metadata": {
+        "reviewStatus": "RESOLVED_LEGITIMATE",
+        "resolutionReason": "Reviewed under AICTE Norms"
+      },
+      "previousHash": "30c45e453f8ce26530c4c49653bbf6c13003d03146c9e7a608e91bfd87df07e3",
+      "currentHash": "c312cda8901ba5bfc3077f23517c3cec7474fd16c5a3e4a38b410a05067355a5"
+    },
+    {
+      "id": "EVT-013",
+      "eventNumber": 13,
+      "timestamp": "2026-10-25T11:39:49.372Z",
+      "actorId": "AICTE-REV-OFFICER",
+      "actorRole": "AICTE_ADMIN",
+      "actorName": "AICTE Regulatory Directorate",
+      "actionType": "DUPLICATE_CASE_RESOLVED",
+      "targetEntity": "DUPLICATE_CASE",
+      "targetReference": "DUP-CASE-1001",
+      "result": "SUCCESS",
+      "metadata": {
+        "reviewStatus": "RESOLVED_DUPLICATE",
+        "resolutionReason": "Reviewed under AICTE Norms"
+      },
+      "previousHash": "c312cda8901ba5bfc3077f23517c3cec7474fd16c5a3e4a38b410a05067355a5",
+      "currentHash": "c55824646d121fbd23c3e30b027662f012ee4188269117a3fd2eef0124391c75"
     }
   ],
   "importBatches": [],

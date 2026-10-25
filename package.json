@@ -11,10 +11,12 @@
     "test:live": "npx tsx scripts/verify-live-endpoints.ts"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
     "next": "^15.1.7",
     "papaparse": "^5.5.2",
+    "postcss": "^8.5.31",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.0.2"
